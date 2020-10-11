@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    background-image: url("backgroundimage.jpg");
+    background-size: cover;
+  }
+  
+  header {
+    margin-bottom: 5rem;
+    padding: 2rem;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  .accordian {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    background-color: purple;
+    color: whitesmoke;
+    font-size: 2rem;
+  }
+  
+  .header:hover {
+    background-color:black;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .header-text {
+    padding: 0.5rem 1rem;
+  }
+  
+  .article {
+    display: flex;
+    background-color: whitesmoke;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s;
+    -webkit-transition: height 0.5s;
+    -moz-transition: height 0.5s;
+    color: purple;
+  }
+  
+  .box {
+    flex: 1 1 calc(1 / 2 * 100%);
+  }
+  
+  .spike {
+    background-image: url("spike.png");
+    background-size: cover;
+  }
+  .edward {
+    background-image: url("edward-196.jpg");
+    background-size: cover;
+  }
+  
+  .jet {
+    background-image: url("Jet_Head.jpg");
+    background-size: cover;
+  }
+  
+  .coffee {
+    background-image: url("coffee.jpg");
+    background-size: cover;
+  }
+  
+  .active {
+    height: 540px;
+  }
+
+  ul {
+    list-style: none;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    text-align: center;
+  }
+
+  p{
+    font-size: 10px;
+  }
+
+  @media (max-width: 780px) {
+    header {
+      font-size: 2rem;
+    }
+  
+    .article {
+      flex-direction: column;
+    }
+  }
+
+  h2{
+    font-family: 'Lobster', cursive;
+  }
+
+  h1{
+    font-family: 'Permanent Marker', cursive;
+  }
