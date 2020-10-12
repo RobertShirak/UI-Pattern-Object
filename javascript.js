@@ -37,7 +37,7 @@ fetch(url)
     
 .catch(err => console.log("err", err))
 
-// Accordian
+// Accordion
 buttons.forEach((button, i) => {
   button.addEventListener("click", function (evt) {
     evt.preventDefault();
